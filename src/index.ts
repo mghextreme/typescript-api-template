@@ -3,7 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { Request, Response } from 'express';
 import { port } from './config';
-import usersRoutes from './routes/users';
+import usersRoutes from './routes/users.routes';
 
 const app = express();
 app.use(bodyParser.json());
